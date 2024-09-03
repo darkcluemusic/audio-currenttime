@@ -19,7 +19,7 @@ Dari - [CusMeDroid](https://cusmedroid.github.io/live-code-editor/)
 var mCek = document.getElementById('cek');
 var audio = document.getElementById('track');
 audio.addEventListener('timeupdate',function() {
-  var currentTimeMs = audio.currentTime*1000; 
+  var currentTimeMs = audio.currentTime * 1000; 
   mCek.innerHTML = Number(currentTimeMs);
   console.log(currentTimeMs); 
 }, false); 
