@@ -6,7 +6,7 @@ Dari - [CusMeDroid](https://cusmedroid.github.io/live-code-editor/)
 
 ## HTML
 - Tambahkan di html
-```txt
+```html
 <h1 id="cek"></h1>
 <audio id="track" controls>
   <source src="https://firebasestorage.googleapis.com/v0/b/dark-clue.appspot.com/o/post%2Fmemilikimu-kembali%2FMemilikimu%20Kembali.mp3?alt=media&token=bbf16bdf-9397-4e0f-a718-b83e5e222de5" type="audio/mpeg">
@@ -15,7 +15,7 @@ Dari - [CusMeDroid](https://cusmedroid.github.io/live-code-editor/)
 
 ## JAVASCRIPT
 - Tambahkan di javascript
-```txt
+```javascript
 var mCek = document.getElementById('cek');
 var audio = document.getElementById('track');
 audio.addEventListener('timeupdate',function() {
